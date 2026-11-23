@@ -103,9 +103,9 @@ logging.getLogger("pymc").setLevel(logging.ERROR)
 set_num_threads(min(4, get_num_threads()))
 
 FILES = (
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_2984.csv"),
-    Path("/Users/4c/Desktop/GHQ/data/loto7_4724_k93_loto_plus_1740.csv"),
+    Path("/data/loto7_4724_k93.csv"),
+    Path("/data/loto7_4724_k93_loto_2984.csv"),
+    Path("/data/loto7_4724_k93_loto_plus_1740.csv"),
 )
 
 N = 39
@@ -1229,7 +1229,7 @@ Zavrsno ucenje: svi istorijski prelazi.
 Uzorkovanje zavrseno. Provera Rhat, ESS i BFMI.
 Dijagnostika izracunata.
 NEXT: deterministicka pretraga posteriorne aproksimacije sa 128 uzoraka parametara.
-NEXT: [4, 6, 8, 15, 18, 26, 38]
+NEXT: [4, x, 8, y, 18, z, 38]
 
 
 
@@ -1275,7 +1275,7 @@ Zavrsno ucenje: svi istorijski prelazi.
 Uzorkovanje zavrseno. Provera Rhat, ESS i BFMI.
 Dijagnostika izracunata.
 NEXT: deterministicka pretraga posteriorne aproksimacije sa 128 uzoraka parametara.
-NEXT: [2, 13, 16, 17, 25, 29, 36]
+NEXT: [2, x, 16, y, 25, z, 36]
 
 
 
@@ -1321,7 +1321,7 @@ Zavrsno ucenje: svi istorijski prelazi.
 Uzorkovanje zavrseno. Provera Rhat, ESS i BFMI.
 Dijagnostika izracunata.
 NEXT: deterministicka pretraga posteriorne aproksimacije sa 128 uzoraka parametara.
-NEXT: [1, 7, 11, 25, 26, 33, 37]
+NEXT: [1, x, 11, y, 26, z, 37]
 """
 
 
